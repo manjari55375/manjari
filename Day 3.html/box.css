@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.box1 {
+  width: 300px;
+  height: 150px;
+  margin: 20px auto;
+  background-image: url('/image/profile.jpeg.jfif');
+  background-position: center;
+  background-size: cover;
+  border: 3px dotted red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+ 
+}
+
+
+
+
+
+.box2 {
+  width: 300px;
+  height: 150px;
+  margin: 20px auto;
+  background-image: url('/image/flowers.jpg');
+  background-color: lightblue;
+  border: 3px solid #f5ef30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
