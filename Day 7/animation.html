@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @keyframes bounceFade {
+
+            0% {
+                transform: translateY(0);
+                opacity: 0;
+            }
+
+            50% {
+                transform: translateY(-50px);
+                opacity: 1;
+
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 0.5;
+
+            }
+
+
+        }
+
+        .box1 {
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+            margin: 100px auto;
+            border-radius: 10px;
+
+            /* animation-property */
+
+            animation: bounceFade 2s ease-in-out 1s infinite alternate forwards;
+        }
+
+        .box2 {
+
+            width: 100px;
+            height: 100px;
+            background-color: chartreuse;
+            margin: 100px auto;
+            border-radius: 10px;
+
+            /* animation-property */
+
+            animation: bounce 2s ease-in-out 1s infinite alternate backwards;
+
+        }
+
+        @keyframes bounce {
+
+            0% {
+                transform: translateX(0);
+                opacity: 0;
+            }
+
+            50% {
+                transform: translateX(-60px);
+                opacity: 1;
+
+            }
+
+            100% {
+                transform: translateX(0);
+                opacity: 0.5;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box1">
+
+    </div>
+
+    <div class="box2"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Page Layout with Sidebar and Content</title>
+  <style>
+    .sidebar {
+      float: left;
+      width: 30%;
+      height: 380px;
+      background-color: #c4cf9b;
+      padding: 10px;
+
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+
+    }
+
+    .content {
+      float: right;
+      box-sizing: border-box;
+      width: 65%;
+      height: 400px;
+      background-color: #addaef;
+      padding: 10px;
+
+    }
+
+    .clearfix {
+      clear: both;
+    }
+
+    .box-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .box {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background-color: lightgray;
+      margin: 10px;
+      padding: 10px;
+      line-height: 80px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="sidebar">
+    <h3>Describe List!</h3>
+    <p>Study</p>
+    <p>Drink Water</p>
+    <p>Diary Writting</p>
+  </div>
+
+  <div class="content">
+    <h3>Goals! </h3>
+    <p>Paragrah of lorem :
+
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga adipisci possimus quaerat error sapiente fugiat iure explicabo voluptatibus eligendi recusandae maiores sed debitis dolore tempora tenetur, quod libero optio reprehenderit.
+
+    </p>
+  </div>
+
+  <div class="clearfix"></div>
+
+  <div class="box-container">
+    <div class="box" style="background-color: rgb(47, 192, 156);">focused</div>
+    <div class="box" style="background-color: rgb(230, 121, 135);">Motivated</div>
+    <div class="box" style="background-color: rgb(231, 163, 62);">Confidental</div>
+  </div>
+
+</body>
+
+</html>

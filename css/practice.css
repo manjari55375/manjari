@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.ideas-section {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+}
+
+.content h1 {
+  font-size: 40px;
+  color: #333;
+}
+
+.content h3 {
+  color: #3cb187;
+  margin: 15px 0;
+  font-size: 16px;
+}
+
+.content p {
+  margin: 10px 0;
+  color: #333;
+  max-width: 600px;
+}

@@ -1,0 +1,238 @@
+ .card {
+      padding: 20px;
+      text-align: center;
+      background-color: #f8f9fa;
+      border: 1px solid #dee2e6;
+    }
+
+     .header{
+      background-color: #6f42c1;
+      color: white;
+      padding: 10px;
+      text-align: center;
+     
+    }
+
+    .footer {
+      background-color: #6f42c1;
+      color: white;
+      padding: 10px;
+      text-align: center;
+     
+    }
+    .card-box {
+      background-color: #f8f9fa;
+      padding: 20px;
+      border: 1px solid #dee2e6;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+     .header-2{
+      background-color: #fd7e14; 
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .footer-2 {
+      background-color: #fd7e14; 
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    .content-box {
+      border: 1px solid #ccc;
+      padding: 30px;
+      text-align: center;
+      margin: 30px auto;
+      width: 50%;
+      background-color: #fff;
+    }
+
+
+     .magazine-header {
+      background-color: #20c997; 
+      color: white;
+      text-align: center;
+      padding: 12px;
+      margin-bottom: 20px;
+    }
+    .main{
+     
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+
+    .side-1{
+      background-color: #f8f9fa;
+      border: 1px solid #ced4da;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+
+    .side-2{
+      background-color: #f8f9fa;
+      border: 1px solid #ced4da;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+
+    .footer-3 {
+      background-color: #20c997; 
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-right: -24px;
+    }
+
+    .sidebar {
+      background-color: #cfd8dc;
+      height: 300px;
+    }
+    .header-5 {
+      background-color: #607d8b;
+      height: 50px;
+          margin-left: -13px;
+    }
+    .footer-5 {
+      background-color: #607d8b;
+      height: 50px;
+          margin-left: -13px;
+    }
+    .main-area {
+      height: 200px;
+    }
+
+    .section-box {
+      background-color: #f3e5f5;
+      height: 300px;
+      width: 100%;
+    }
+    .header-6 {
+      background-color: #4a148c;
+      color: white;
+      text-align: center;
+      padding: 8px 0;
+    }
+
+    .footer-6 {
+      background-color: #4a148c;
+      color: white;
+      text-align: center;
+      padding: 8px 0;
+    }
+    .image-box {
+      padding: 20px;
+    }
+    .image-box img {
+      width: 60px;
+      height: auto;
+    }
+    .text-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
+      padding: 20px;
+    }
+
+
+
+
+    /* .header-7{
+      background-color: #0d6efd;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .footer-7 {
+      background-color: #0d6efd;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .box {
+      background-color: #f8f9fa;
+      border: 2px solid #ced4da;
+      padding: 30px;
+      font-size: 1rem;
+    }
+
+    .box-1 {
+      background-color: #f8f9fa;
+      border: 2px solid #ced4da;
+      padding: 30px;
+      font-size: 1rem;
+    } */
+
+    /* .header-8 {
+      background-color: #0d6efd;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+     .footer-8 {
+      background-color: #0d6efd;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .card-8 {
+      background-color: #f8f9fa;
+      border: 2px solid #ced4da;
+      padding: 25px;
+      text-align: center;
+    }
+    .card-8 h5 {
+      font-weight: 600;
+    } */
+
+
+    .bg-brown{
+        background-color: #4E342E; 
+    color: white;
+    }
+
+    .layout-box {
+      width: 100%;
+      
+      margin: 10px auto;
+    }
+
+     .big-box {
+      width: 100%;
+      margin: auto;
+    }
+    .section {
+      min-height: 80px;
+    }
+    .content-box {
+      min-height: 150px;
+    }
+
+    .menu{
+        height: 106px;
+        text-align: center;
+    }
+    .content{
+        height: 106px;
+        text-align: center;
+    }
+
+    
+
+    .service-box {
+      height: 180px;
+      width: 100%;
+    }

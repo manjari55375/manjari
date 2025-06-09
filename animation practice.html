@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @keyframes fancyMove {
+            0% {
+                background-color: aqua;
+                transform: translateX(0);
+
+                background-position: center;
+                scale: 0.2;
+            }
+
+            25% {
+                transform: translateX(50px);
+                scale: 1;
+            }
+
+            50% {
+                background-color: rgb(207, 83, 61);
+                transform: translateX(100px);
+
+                background-position: center;
+                scale: 1.4;
+            }
+
+            /* 25% {
+                transform: translateX(150px);
+                scale: 1.5;
+            } */
+
+            100% {
+                background-color: rgb(252, 158, 35);
+                transform: translateX(200px);
+                background-position: center;
+                scale: 1.6;
+
+            }
+        }
+
+        .container {
+            width: 100px;
+            height: 100px;
+            background-color: orangered;
+            margin: 100px auto;
+            border-radius: 10px;
+
+            /* animation-property */
+
+            animation: fancyMove 2s ease-in-out 1s infinite alternate-reverse both;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"></div>
+
+</body>
+
+</html>
